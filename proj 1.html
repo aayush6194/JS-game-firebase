@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+
+  <body>
+
+    <canvas id="canvas"></canvas><br>
+    <button class="btn btn-primary" id="bt" style="width: 100%"> Click </button>
+    <h1> Scores</h1>
+    <div class= "table-responsive">
+      <table class="table table-hover" >
+        <thead>
+            <tr><th>Name</th>
+                <th>Scores</th></tr>
+        </thead>
+          <tbody id="scores">
+          </tbody>
+      </table>
+    </div>
+    <br><hr>
+
+    <input type="text" id="name" class="form-control">
+    <button id="sub" class="btn">Submit</button>
+
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script src="proj.js"></script>
+  </body>
+</html>
